@@ -4,7 +4,7 @@ import React from 'react'
 const Sidebar = () => {
   return (
     <div className='flex justify-evenly md:flex-col fixed bottom-0 w-full'>
-      <a href="#" className="p-6">
+      <a href="#" className="p-4">
         <Image
           src="/icons/icon-home.svg"
           alt="Home"
@@ -13,7 +13,7 @@ const Sidebar = () => {
           priority
         />
       </a>
-      <a href="#" className="p-6">
+      <a href="#" className="p-4">
       <Image
           src="/icons/icon-search.svg"
           alt="Home"
@@ -22,7 +22,7 @@ const Sidebar = () => {
           priority
         />
       </a>
-      <a href="#" className='p-6'>
+      <a href="#" className='p-4'>
       <Image
           src="/icons/icon-plus.svg"
           alt="Home"
@@ -31,7 +31,7 @@ const Sidebar = () => {
           priority
         />
       </a>
-      <a href="#" className='p-6'>
+      <a href="#" className='p-4'>
       <Image
           src="/icons/icon-reels.svg"
           alt="Home"
@@ -40,7 +40,7 @@ const Sidebar = () => {
           priority
         />
       </a>
-      <a href="#" className='p-6'>
+      <a href="#" className='p-4'>
       <Image
           src="/icons/woman.jpg"
           alt="Home"

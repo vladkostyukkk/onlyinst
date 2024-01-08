@@ -3,7 +3,7 @@ import MainContent from '@/src/components/MainContent/MainContent'
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-black'>
       <div className="flex min-h-screen w-full">
         <div className="sm: md:basis-2/12">
           <Sidebar />
