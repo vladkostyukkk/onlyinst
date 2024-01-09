@@ -1,15 +1,16 @@
 import Sidebar from '@/src/components/Sidebar/Sidebar'
-import MainContent from '@/src/components/MainContent/MainContent'
+import FeedPosts from '@/src/components/FeedPosts/FeedPosts'
 
 export default function Home() {
   return (
-    <div className='bg-black'>
+    <div className='bg-white dark:bg-black'>
       <div className="flex min-h-screen w-full">
-        <div className="sm: md:basis-2/12">
+        <div className="md:basis-2/12 sm:px-3 sm:pt-2 sm:pb-5 sm:border-r sm:border-line-gray dark:bg-black z-10">
           <Sidebar />
         </div>
-        <div className="md:basis-10/12">
-          <MainContent />
+        <div className="md:basis-10/12 flex items-center justify-center w-full">
+        
+          <FeedPosts />
         </div>
       </div>
     </div>
